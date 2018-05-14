@@ -44,10 +44,20 @@ header {
     font-weight: 600;
 }
 
+.scroll-down {
+    position: relative;
+    top: 100%;
+    left: 0;
+    margin-top: -38px;
+    text-align: center;
+    width: 100%;
+}
+
 .fa-angle-down {
     color: white;
-    position: relative;
-    margin-top: 50%;
-    font-size: 20px;
-    left: 50%;
+    font-size: 35px;
+}
+
+.fa-angle-down:hover {
+    color: lightblue;
 }
