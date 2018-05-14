@@ -14,3 +14,40 @@ header {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
+
+.main-image {
+    background-image: url(simple-blue.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro-box {
+    color: #d6c32d;
+    left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+}
+
+.intro-line {
+    font-size: 34px;
+    font-style: italic;
+}
+
+.intro-sub {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fa-angle-down {
+    color: white;
+    position: relative;
+    margin-top: 50%;
+    font-size: 20px;
+    left: 50%;
+}
